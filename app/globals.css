@@ -2,26 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: 'IRANYekanWeb';
+  src: url('../public/fonts/IRANYekanWeb.eot');
+  src: url('../public/fonts/IRANYekanWeb.eot?#iefix') format('embedded-opentype'),
+      url('../public/fonts/IRANYekanWeb.woff2') format('woff2'),
+      url('../public/fonts/IRANYekanWeb.woff') format('woff'),
+      url('../public/fonts/IRANYekanWeb.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+body{
+
+    font-family: "IRANYekanWeb";
 }

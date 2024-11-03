@@ -1,0 +1,87 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "name": "حمید رضا قلی زاده",
+      "date": "1374/07/29",
+      "access": "admin",
+      "username": "admin",
+      "password": "admin"
+    },
+    {
+      "id": "2",
+      "name": "محمد طباطبایی",
+      "date": "1363/9/20",
+      "access": "user",
+      "username": "mohammad.t",
+      "password": "1234"
+    },
+    {
+      "id": "3",
+      "name": "علی رضا نظافت",
+      "date": "1368/10/12",
+      "access": "user",
+      "username": "ali.nzf",
+      "password": "6789"
+    }
+  ],
+  "triplist": [
+    {
+      "start": "تهران",
+      "end": "شیراز",
+      "start_time": "00:12",
+      "end_time": "01:13",
+      "capacity": "100",
+      "price": "1000000",
+      "id": "1",
+      "list": [
+        {
+          "name": "حمید",
+          "family": "امینی",
+          "birthDate": "2020-12-12",
+          "code_meli": "123456"
+        },
+        {
+          "name": "علی",
+          "family": "باقری",
+          "birthDate": "2000-12-12",
+          "code_meli": "987654321"
+        }
+      ]
+    },
+    {
+      "start": "تهران",
+      "end": "کیش",
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "capacity": "100",
+      "price": "2000000",
+      "id": "2",
+      "list": [
+        {
+          "name": "رضا",
+          "family": "احمدی",
+          "birthDate": "2020-12-12",
+          "code_meli": "789789"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "start": "تهران",
+      "end": "کیش",
+      "start_time": "00:12",
+      "end_time": "13:13",
+      "capacity": "100",
+      "price": "1000000",
+      "list": [
+        {
+          "name": "عباس",
+          "family": "احمدی",
+          "birthDate": "2020-12-12",
+          "code_meli": "95135748264"
+        }
+      ]
+    }
+  ]
+}
